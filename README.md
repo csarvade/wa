@@ -1,2 +1,2 @@
 # wa
-Artistic Project
+An Artistic Project
