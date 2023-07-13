@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>true</AutoPlay>
+            <DescSliding>true</DescSliding>
+            <GalleryMultipleSuffix>1</GalleryMultipleSuffix>
+            <GalleryName>rashmi</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <HoverStart>false</HoverStart>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>0</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>2. Glossy</ImageTemplate>
+            <ImageTemplateName>Glossy</ImageTemplateName>
+            <ImageWidth>0</ImageWidth>
+            <PublishFileName>C:/Users/csarvade/workspace/wa/WebContent/rashmi.jsp</PublishFileName>
+            <PublishIndex>rashmi.jsp</PublishIndex>
+            <PublishPath>C:/Users/csarvade/workspace/wa/WebContent</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>7</ResizeSpeed>
+            <RightClick>false</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>4</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>120</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>Overlay_Long</ThumbTemplate>
+            <ThumbTemplateName>Overlay Long</ThumbTemplateName>
+            <ThumbWidth>160</ThumbWidth>
+        </Settings>
+        <Images>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\1.jpg</url>
+                <title>1</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\2.jpg</url>
+                <title>2</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\221.jpg</url>
+                <title>221</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\233.jpg</url>
+                <title>233</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

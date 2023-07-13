@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>true</AutoPlay>
+            <DescSliding>true</DescSliding>
+            <GalleryMultipleSuffix>1</GalleryMultipleSuffix>
+            <GalleryName>vinay</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <HoverStart>false</HoverStart>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>0</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>4. Facebook</ImageTemplate>
+            <ImageTemplateName>Social</ImageTemplateName>
+            <ImageWidth>0</ImageWidth>
+            <PublishFileName>C:/Users/csarvade/workspace/wa/WebContent/vinay.jsp</PublishFileName>
+            <PublishIndex>vinay.jsp</PublishIndex>
+            <PublishPath>C:/Users/csarvade/workspace/wa/WebContent</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>7</ResizeSpeed>
+            <RightClick>false</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>5</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>120</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>Overlay_Long</ThumbTemplate>
+            <ThumbTemplateName>Overlay Long</ThumbTemplateName>
+            <ThumbWidth>160</ThumbWidth>
+        </Settings>
+        <Images>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\image6.jpg</url>
+                <title>image6</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\image7.jpg</url>
+                <title>image7</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\image8.jpg</url>
+                <title>image8</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\image9.jpg</url>
+                <title>image9</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\image10.jpg</url>
+                <title>image10</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\image11.jpg</url>
+                <title>image11</title>
+            </Image>
+            <Image>
+                <url>C:\Users\csarvade\workspace\wa\WebContent\photos\image16.jpg</url>
+                <title>image16</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
