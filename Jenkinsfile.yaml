@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                cmd git checkout https://github.com/csarvade/wa.git
                 cmd mvn clean install
             }
         }
