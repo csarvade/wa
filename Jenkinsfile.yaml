@@ -1,13 +1,21 @@
 pipeline {
     agent any
-
+    environment{
+     PATH="C:\apache-maven-3.9.6:$PATH"
+    }
     stages {
-        stage('Build') {
+        stage('clone') {
+            steps {
+             echo 'Cloning..'
+             git credentialsId: 'git credentials', url:  'https://github.com/csarvade/wa.git'
+                
+            }
+        }
+         stage('Build') {
             steps {
                 echo 'Building..'
-                cmd git checkout https://github.com/csarvade/wa.git
-                cmd mvn clean install
-            }
+                sh "mvn clean install"
+             }
         }
         stage('Test') {
             steps {
@@ -17,7 +25,10 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                cmd cp **/*.war webapps/
+                 cd C:\tom\apache-tomcat-9.0.86\bin
+                 sh shutdown.sh
+                 scp **/*.war C:\tom\apache-tomcat-9.0.86\webapps\
+                 sh startup.sh
             }
         }
     }
