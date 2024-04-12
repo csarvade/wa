@@ -73,7 +73,7 @@
             <groupId>com.worldartx</groupId>
             <type>war</type>
             <location>${project.build.directory}/${project.build.finalName}.war</location>
-            <pingURL>http://localhost:9090/wa</pingURL>
+            <pingURL>http://127.0.0.1:9090/wa</pingURL>
         </deployable>
     </deployables>
 
