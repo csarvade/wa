@@ -51,7 +51,49 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+<plugin>
+<groupId>org.codehaus.cargo</groupId>
+<artifactId>cargo-maven3-plugin</artifactId>
+<version>1.10.8</version>
+<configuration>
+    <container>
 
+        <containerId>tomcat9x</containerId>
+        <type>installed</type>
+
+        <systemProperties>
+            <property1>value1</property1>
+        </systemProperties>
+
+    </container>
+
+    <deployables>
+        <deployable>
+            <artifactId>wa</artifactId>
+            <groupId>com.worldartx</groupId>
+            <type>war</type>
+            <location>${project.build.directory}/${project.build.finalName}.war</location>
+            <pingURL>http://localhost:9090/wa</pingURL>
+        </deployable>
+    </deployables>
+
+    <configuration>
+        <type>existing</type>
+        <home>C://tom//apache-tomcat-9.0.86</home>
+    </configuration>
+
+</configuration>
+
+<executions>
+    <execution>
+        <id>start-server</id>
+        <phase>pre-integration-test</phase>
+        <goals>
+            <goal>start</goal>
+        </goals>
+    </execution>
+</executions>
+</plugin>
 		</plugins>
 	</build>
 </project>
