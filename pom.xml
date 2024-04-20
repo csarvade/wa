@@ -86,10 +86,10 @@
 
 <executions>
     <execution>
-        <id>start-server</id>
+        <id>stop-server</id>
         <phase>pre-integration-test</phase>
         <goals>
-            <goal>start</goal>
+            <goal>stop</goal>
         </goals>
     </execution>
 	<execution>
