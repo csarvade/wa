@@ -149,21 +149,6 @@
 						</home>
 					</configuration>
 				</configuration>
-				<executions>
-					<execution>
-						<id>
-							start-server
-						</id>
-						<phase>
-							post-integration-test
-						</phase>
-						<goals>
-							<goal>
-								start
-							</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
