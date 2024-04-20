@@ -87,7 +87,7 @@
 <executions>
     <execution>
         <id>stop-server</id>
-        <phase>pre-integration-test</phase>
+        <phase>post-integration-test</phase>
         <goals>
             <goal>stop</goal>
         </goals>
