@@ -92,6 +92,13 @@
             <goal>start</goal>
         </goals>
     </execution>
+	<execution>
+        <id>start-server</id>
+        <phase>post-integration-test</phase>
+        <goals>
+            <goal>start</goal>
+        </goals>
+    </execution>
 </executions>
 </plugin>
 		</plugins>
