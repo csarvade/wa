@@ -85,14 +85,7 @@
 </configuration>
 
 <executions>
-    <execution>
-        <id>stop-server</id>
-        <phase>post-integration-test</phase>
-        <goals>
-            <goal>stop</goal>
-        </goals>
-    </execution>
-	<execution>
+<execution>
         <id>start-server</id>
         <phase>post-integration-test</phase>
         <goals>
